@@ -1,0 +1,27 @@
+# Local .terraform directories
+terraform/environments/*/.terraform/*
+
+# .tfstate files
+terraform/environments/*/*.tfstate
+terraform/environments/*/*.tfstate.*
+
+# Crash log files
+terraform/environments/*/crash.log
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+terraform/environments/*/override.tf
+terraform/environments/*/override.tf.json
+terraform/environments/*/*_override.tf
+terraform/environments/*/*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+#
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Ignore CLI configuration files
+terraform/environments/*/.terraformrc
+terraform/environments/*/terraform.rc
